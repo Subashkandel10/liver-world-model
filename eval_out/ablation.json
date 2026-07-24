@@ -1,0 +1,22 @@
+{
+  "seed": 0,
+  "critic_auc": 0.937861098536291,
+  "real_transitions": 0.5904280543327332,
+  "variants": {
+    "jepa_full": {
+      "rollout_mae": 0.08711784332990646,
+      "effective_rank": 4.765152931213379,
+      "manifold_score": 0.5086513757705688
+    },
+    "jepa_no_latent": {
+      "rollout_mae": 0.0956810712814331,
+      "effective_rank": 3.43934965133667,
+      "manifold_score": 0.6717846393585205
+    }
+  },
+  "delta_from_latent_term": {
+    "rollout_mae": -0.008563227951526642,
+    "effective_rank": 1.325803279876709,
+    "manifold_score": -0.16313326358795166
+  }
+}

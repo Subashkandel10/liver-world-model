@@ -1,0 +1,59 @@
+{
+  "git_hash": "unknown",
+  "checkpoints": {
+    "graph.pt": {
+      "name": "graph",
+      "best_val": 0.06553097814321518,
+      "best_epoch": 31,
+      "obs_noise": 0.0
+    },
+    "jepa.pt": {
+      "name": "jepa",
+      "best_val": 0.0763494223356247,
+      "best_epoch": 27,
+      "obs_noise": 0.0
+    },
+    "jepa_noisy.pt": {
+      "name": "jepa",
+      "best_val": 0.07754238694906235,
+      "best_epoch": 19,
+      "obs_noise": 0.1
+    },
+    "memoryless.pt": {
+      "name": "memoryless",
+      "best_val": 0.07104546576738358,
+      "best_epoch": 33,
+      "obs_noise": 0.0
+    },
+    "memoryless_noisy.pt": {
+      "name": "memoryless",
+      "best_val": 0.07659042626619339,
+      "best_epoch": 33,
+      "obs_noise": 0.1
+    },
+    "oracle.pt": {
+      "name": "oracle",
+      "best_val": 0.077602319419384,
+      "best_epoch": 33,
+      "obs_noise": 0.0
+    },
+    "supervised.pt": {
+      "name": "supervised",
+      "best_val": 0.06767960637807846,
+      "best_epoch": 33,
+      "obs_noise": 0.0
+    },
+    "supervised_noisy.pt": {
+      "name": "supervised",
+      "best_val": 0.06912627071142197,
+      "best_epoch": 33,
+      "obs_noise": 0.1
+    },
+    "supervised_quantile.pt": {
+      "name": "supervised_quantile",
+      "best_val": 0.06426982581615448,
+      "best_epoch": 33,
+      "obs_noise": 0.0
+    }
+  }
+}

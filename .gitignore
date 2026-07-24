@@ -1,0 +1,46 @@
+# --- environment -----------------------------------------------------------------------
+# Never commit the venv; reproduce it from requirements.txt / pyproject.toml.
+.venv/
+venv/
+
+# --- Python ----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- OS --------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# --- LaTeX build artifacts (docs/ and slides/) -----------------------------------------
+*.aux
+*.log
+*.out
+*.nav
+*.snm
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# --- not published ---------------------------------------------------------------------
+# This repository is public and deliberately ships only the prototype, the evaluation
+# harness, and the decision memo. Everything below stays on the local disk.
+
+# The hiring team's own take-home brief — publishing it would leak their exercise.
+docs/assignment.pdf
+
+# Working documents and the readout deck: not part of the submission.
+docs/memo.md
+docs/memo.tex
+docs/DECISIONS.html
+docs/EVALUATION_PACKET.md
+docs/SUGGESTIONS.md
+docs/study_guide.html
+slides/
+
+# --- deliberately NOT ignored ----------------------------------------------------------
+# checkpoints/, eval_out/ and figures/ ARE committed (~1.1 MB total). Every number in the
+# memo and the deck is auditable from them without retraining, which is the point of
+# checkpoints/manifest.json. Regenerate everything with `python run_all.py`.
